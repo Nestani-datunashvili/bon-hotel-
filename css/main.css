@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+:root {
+  --primary: #ffffff;
+  --secondary: #957554;
+  --btn-gb: #dfaa5b;
+  --ft-bg: #111111;
+}
+
+body {
+  width: 1440px;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+}
+
+h2 {
+  color: var(--secondary);
+  font-family: 500;
+  font-size: 45px;
+  line-height: 51.71px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 40px;
+  line-height: 45.96px;
+  font-weight: 500;
+}
+
+a {
+  font-weight: 400;
+  font-size: 24px;
+}
+button {
+  height: 76px;
+  border-radius: 5px;
+  font-size: 24px;
+  border: none;
+  background-color: var(--btn-gb);
+  color: var(--primary);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary);
+  color: var(--btn-gb);
+}
