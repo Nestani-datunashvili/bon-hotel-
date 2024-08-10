@@ -1,0 +1,59 @@
+.room_section {
+  padding: 23px 60px 107px 60px;
+}
+
+.first_section--content {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin-top: 68px;
+}
+
+.room {
+  width: 630px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.room_content {
+}
+
+.room_content--title {
+  color: #957554;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.room_content--text {
+  margin: 44px 0;
+  font-size: 40px;
+  line-height: 45.96px;
+  font-weight: 500;
+}
+
+.room_content--btn {
+  width: 244px;
+}
+/* gallery_section */
+.gallery_section {
+  padding: 0 60px 107px 60px;
+}
+
+.gallery {
+  display: flex;
+  gap: 30px;
+  margin: 68px 0 30px 0;
+}
+
+.long {
+  width: 792px;
+  height: 500px;
+  border-radius: 10px;
+}
+
+.short {
+  width: 498px;
+  height: 500px;
+  border-radius: 10px;
+}
